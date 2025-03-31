@@ -4,7 +4,7 @@
 
 #include "HardwareSerial.h"
 
-#define ECHO_UART_PORT_NUM (1)
+#define ECHO_UART_PORT_NUM (UART_NUM_1)
 
 namespace esphome {
 namespace opentherm {

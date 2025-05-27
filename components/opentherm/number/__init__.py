@@ -3,13 +3,7 @@ from typing import Any
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.components import number
-from esphome.const import (
-    CONF_ID,
-    CONF_UNIT_OF_MEASUREMENT,
-    CONF_STEP,
-    CONF_INITIAL_VALUE,
-    CONF_RESTORE_VALUE,
-)
+from esphome.const import CONF_INITIAL_VALUE, CONF_RESTORE_VALUE, CONF_STEP
 from .. import const, schema, validate, input, generate
 
 DEPENDENCIES = [const.OPENTHERM]

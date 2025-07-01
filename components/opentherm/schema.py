@@ -62,7 +62,7 @@ class SensorSchema(EntitySchema):
     accuracy_decimals: int
     state_class: str
     unit_of_measurement: str | None = None
-    icon: str | None = NoneAdd commentMore actions
+    icon: str | None = None
     device_class: str | None = None
     disabled_by_default: bool = False
     order: int | None = None

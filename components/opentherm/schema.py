@@ -461,7 +461,7 @@ SENSORS: dict[str, SensorSchema] = {
 
 @dataclass
 class BinarySensorSchema(EntitySchema):
-    icon: str | None = NoneAdd commentMore actions
+    icon: str | None = None
     device_class: str | None = None
     order: int | None = None
 

@@ -31,7 +31,7 @@ void OpenthermNumber::setup() {
 
 void OpenthermNumber::dump_config() {
   LOG_NUMBER("", "OpenTherm Number", this);
-  ESP_LOGCONFIG(TAG,Add commentMore actions
+  ESP_LOGCONFIG(TAG,
                 "  Restore value: %d\n"
                 "  Initial value: %.2f\n"
                 "  Current value: %.2f",

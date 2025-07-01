@@ -722,7 +722,7 @@ class InputSchema(EntitySchema):
     step: float
     range: tuple[int, int]
     icon: str | None = None
-    auto_max_value: AutoConfigure | None = NoneAdd commentMore actions
+    auto_max_value: AutoConfigure | None = None
     auto_min_value: AutoConfigure | None = None
 
 

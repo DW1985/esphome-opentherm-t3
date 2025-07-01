@@ -10,8 +10,8 @@
 #include "atomic"
 #include <string>
 #include "esphome/core/hal.h"
-#include "esphome/core/log.h"
 #include "esphome/core/helpers.h"
+#include "esphome/core/log.h"
 
 #include "HardwareSerial.h"
 #include "Stm32AppProtocol.h"

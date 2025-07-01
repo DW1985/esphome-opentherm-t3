@@ -1,5 +1,5 @@
-from collections.abc import Awaitable
-from typing import Any, Callable, Optional
+from collections.abc import Awaitable, CallableAdd commentMore actions
+from typing import Any
 
 import esphome.codegen as cg
 from esphome.const import CONF_ID

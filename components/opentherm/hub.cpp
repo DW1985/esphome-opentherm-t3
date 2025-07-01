@@ -316,7 +316,7 @@ void OpenthermHub::dump_config() {
   LOG_PIN("  Reset: ", this->reset_pin_);
   ESP_LOGCONFIG(TAG,
                 "  Sync mode: %s\n"
-                "  Sensors: %s\n"Add commentMore actions
+                "  Sensors: %s\n"
                 "  Binary sensors: %s\n"
                 "  Switches: %s\n"
                 "  Input sensors: %s\n"
